@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gif.css?v={now}">
-    <!-- <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet' type='text/css'> -->
     <title>Document</title>
 </head>
-<body>
+<body onload="loadTrendingGifsInHTML()">
     <div class="menu-div">
         <div class="nav-menu">
             <a href="#">Home</a>
@@ -16,7 +15,7 @@
         </div>
     </div>
     <div class="div-title">
-        <h1>GIFs Search Engine</h1>
+        <h1>GIF Search Engine</h1>
     </div>
     <div class="container-for-search-of-gifs">
             <form action="#" class="js-gif-form" method="GET">
@@ -30,7 +29,27 @@
         </span>
     </div>
     <section class="js-gif-container"></section>
-    <section class="js-gif-container"></section>
+    <div class="footer">
+        <div class="footer-centering-div">
+            <p class="footer-search-eng-p">
+                Additional GIF search engines:
+                <a href="https://tenor.com/search/search-gifs">tenor</a>
+                <a href="https://gifer.com/en/7Fmc">gifer</a>
+                <a href="https://imgur.com/">imgur</a>
+            </p>
+            <p class="footer-designer-p">
+                <span>Designed and maintained by:</span>
+                <span><a href="https://www.linkedin.com/in/mitchell-rabushka">Mitchell Rabushka</a></span>
+                <span>email: mrabushka@hotmail.com</span>
+            </p>
+        </div>
+    </div>
+    <script>
+        let initSearch = ""
+        function loadTrendingGifsInHTML(initSearch){
+        loadTrendingGifsInJs(initSearch)
+        }
+    </script>
     <script src="gif.js"></script>
     <script src="global.js"></script>
 </body>

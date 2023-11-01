@@ -75,6 +75,7 @@ body{
     width: 1032px;
     height: 1325px;
     margin: 0px auto;
+    margin-bottom: 15px;
 }
 
 .image-style{
@@ -82,4 +83,63 @@ body{
     height: 100%;
     border: none;
     margin: auto;
+}
+
+.gif-description-div{
+    height: 60px;
+    width: 1032px;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+}
+
+.gif-description-div span{
+    align-self: flex-end;
+}
+
+.footer{
+    height: 120px;
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    background-color: rgb(35,47,62);
+}
+
+.footer-centering-div{
+    width: 1032px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.footer-search-eng-p a{
+    color: white;
+}
+
+.footer-search-eng-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer-designer-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer-designer-p a{
+    color: white
 }
