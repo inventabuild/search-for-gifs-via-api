@@ -10,6 +10,7 @@ https://github.com/inventabuild/search-for-gifs-via-api.git
 
 # Wireframes
 ./wireframes/wireframe-homepage.drawio.png
+
 ./wireframes/wireframe-mobile-view.drawio.png
 
 # User Stories
